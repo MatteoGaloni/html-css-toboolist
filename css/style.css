@@ -1,5 +1,5 @@
 body{
-    background-color: lightgrey;
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,6 +17,7 @@ h1{
 
 #comando{
     width: 80%;
+    height:40px;
     margin: 0 auto;
     background-color: white;
     margin-top: 30px;
@@ -33,4 +34,31 @@ h1{
 
 h2 h3{
     margin: 0px;
+}
+
+button{
+    border-radius: 10%;
+    border-width: 1px;
+}
+#addtask{
+    color: white;
+    background-color: rgb(2, 157, 181);
+}
+
+#addsection{
+    color: grey;
+    background-color: white    
+}
+
+.editorial{
+    display: inline-block;
+
+}
+
+#editorial_button{
+    display: inline-block;
+    /* height: 30px;
+    width: 100px; */
+    background-color: rgb(110, 175, 236);
+    border-radius: 20%;
 }
