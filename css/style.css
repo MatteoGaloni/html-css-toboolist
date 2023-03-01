@@ -77,24 +77,20 @@ button{
        
 }
 
-.editorial{
+.tag{
     display: inline-block;
-
-}
-
-#editorial_button{
-    display: inline-block;
-    height: 20px;
-    width: 80px;
-    background-color: rgb(110, 175, 236);
-    border-radius: 10%;
-    color: white;
+    width: 100px;
+    background-color: blueviolet;
+    padding-left: 50%;padding: 5px;
+    border-radius: 14px;
+    border: 1px solid;
+    vertical-align: middle;
+    height: 30px;
     text-align: center;
+    color: white;
 }
 
-span{
+ul{
     display: inline-block;
-    border: solid 1px green;
-    border-radius: 50%;
-
+    list-style: none;
 }
