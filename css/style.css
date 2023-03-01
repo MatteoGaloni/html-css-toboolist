@@ -65,9 +65,10 @@ button{
     max-width: 1000px;
     margin: 0 auto;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 5px;
     border-radius: 10px;
-    
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 
@@ -92,6 +93,28 @@ button{
 .blu{
     background-color: rgb(49, 43, 226);
 }
+
+.viola{
+background-color: violet;
+}
+
+.verde{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
 .rosso{
     background-color: red;
+
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+li{
+    margin:2px
 }
