@@ -38,23 +38,6 @@ h1{
     
 }
 
-#addtask{
-    margin-left: 40px;
-}
-
-#mainbox{
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: white;
-    margin-top: 30px;
-    border-radius: 10px;
-    
-}
-
-h2 h3{
-    margin: 0px;
-}
-
 button{
     padding: 5px; 10px;
     border-radius: 5px;
@@ -65,8 +48,8 @@ button{
 }
 
 
-
 #addtask{
+    margin-left: 40px;
     color: white;
     background-color: rgb(2, 157, 181);
 }
@@ -76,11 +59,26 @@ button{
     background-color: white 
        
 }
+    
+
+#tasklist{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+
+
+.list{
+    display: inline-block;
+    list-style: none;
+}
 
 .tag{
     display: inline-block;
-    width: 100px;
-    background-color: blueviolet;
+    width: 100px;    
     padding-left: 50%;padding: 5px;
     border-radius: 14px;
     border: 1px solid;
@@ -90,7 +88,10 @@ button{
     color: white;
 }
 
-.list{
-    display: inline-block;
-    list-style: none;
+
+.blu{
+    background-color: rgb(49, 43, 226);
+}
+.rosso{
+    background-color: red;
 }
