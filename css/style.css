@@ -2,11 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 header img{
@@ -14,6 +15,7 @@ header img{
 }
 
 header{
+    background-color: white;
     height: 70px;
     padding: 10px;
    
@@ -26,21 +28,27 @@ h1{
     
 }
 
-#comando{
-    width: 80%;
-    height:40px;
+.panel{
+    max-width: 1000px;
+    height:30px;
     margin: 0 auto;
     background-color: white;
     margin-top: 30px;
+    border-radius: 10px;
+    
+}
+
+#addtask{
+    margin-left: 40px;
 }
 
 #mainbox{
-    width: 80%;
-    height: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
-    margin-top: 10px;
-    text-align: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    
 }
 
 h2 h3{
@@ -48,9 +56,16 @@ h2 h3{
 }
 
 button{
-    border-radius: 10%;
-    border-width: 1px;
+    padding: 5px; 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 30px;
 }
+
+
+
 #addtask{
     color: white;
     background-color: rgb(2, 157, 181);
@@ -58,7 +73,8 @@ button{
 
 #addsection{
     color: grey;
-    background-color: white    
+    background-color: white 
+       
 }
 
 .editorial{
@@ -76,3 +92,9 @@ button{
     text-align: center;
 }
 
+span{
+    display: inline-block;
+    border: solid 1px green;
+    border-radius: 50%;
+
+}
