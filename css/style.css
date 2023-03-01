@@ -90,7 +90,7 @@ button{
     color: white;
 }
 
-ul{
+.list{
     display: inline-block;
     list-style: none;
 }
