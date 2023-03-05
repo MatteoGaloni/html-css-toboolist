@@ -118,3 +118,26 @@ ul{
 li{
     margin:2px
 }
+
+.circle{
+    border: solid green;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.circle.cross{
+    border: solid red;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.crux{
+    color: red;
+    fon
+}
+
+.check{
+    color: green;
+}
